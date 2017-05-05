@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_regist_mail"
+        style="@style/widget_style"
+        android:hint="@string/text_input_email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_regist_user"
+        style="@style/widget_style"
+        android:hint="@string/text_input_name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_regist_pwd"
+        style="@style/widget_style"
+        android:hint="@string/text_input_password"
+        android:inputType="textPassword"
+        android:maxLength="16" />
+
+    <Button
+        android:id="@+id/btn_regist_now"
+        style="@style/widget_style"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_bg_image_selector"
+        android:text="@string/text_regist_now"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:id="@+id/layout_clause"
+        style="@style/widget_style"
+        android:background="@null"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/chb_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/chb_agree"
+            android:text="@string/text_clause"
+            android:textColor="@color/item_click_color_selector"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_slidingmenu_left"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.zx.news2.view.CircleImageView
+        android:id="@+id/img_user"
+        android:layout_width="152dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:contentDescription="@string/image_user"
+        android:src="@mipmap/biz_pc_main_info_profile_avatar_bg_dark" />
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:text="@string/text_now_login"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:clickable="true"
+        android:text="@string/text_update"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/share_little_bg"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_share_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/share"
+            android:src="@mipmap/fun_share_weixin" />
+
+        <ImageView
+            android:id="@+id/img_share_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/share"
+            android:src="@mipmap/addimport_qq" />
+
+        <ImageView
+            android:id="@+id/img_share_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/share"
+            android:src="@mipmap/fun_share_friends" />
+
+        <ImageView
+            android:id="@+id/img_share_sina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/share"
+            android:src="@mipmap/fun_share_weibo" />
+    </LinearLayout>
+</LinearLayout>

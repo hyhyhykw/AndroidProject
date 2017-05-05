@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloWorld</string>
+    <string name="action_settings">登陆界面</string>
+    <string name="btn_login">登陆</string>
+    <string name="circlering">转盘</string>
+    <string name="action_quit">退出</string>
+    <string name="btn_taiji">太极</string>
+    <string name="btn_fivestar">五角星</string>
+    <string name="btn_moveball">运动小球</string>
+    <string name="btn_ringball">环</string>
+    <string name="action_skip">跳转</string>
+    <string name="txt_user">账户</string>
+    <string name="txt_pwd">密码</string>
+    <string name="list_view">ListView</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_user"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"    
+        android:paddingTop="7dp"
+        android:textSize="25sp" />
+
+    <TextView 
+        android:id="@+id/txt_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_pwd"
+        android:layout_below="@+id/txt_user"       
+       android:layout_marginTop="20dp"
+        android:paddingTop="7dp"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/edt_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txt_user"
+       android:layout_alignTop="@+id/txt_user"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edt_user"
+        android:layout_alignRight="@+id/edt_user"
+        android:layout_below="@+id/edt_user"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/edt_pwd"
+        android:layout_below="@+id/edt_pwd"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:text="@string/btn_login" />
+
+</RelativeLayout>

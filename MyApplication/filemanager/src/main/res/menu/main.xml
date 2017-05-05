@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/return_main"
+        android:title="@string/return_main"/>
+    <item
+        android:id="@+id/dialog_about"
+        android:title="@string/adout"/>
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/action_exit"/>
+
+</menu>

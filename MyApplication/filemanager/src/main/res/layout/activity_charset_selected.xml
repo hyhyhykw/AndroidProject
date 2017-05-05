@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".CharsetSelectedActivity" >
+
+    <TextView
+        android:id="@+id/txt_code_selected"
+        style="@style/dialog_title_style"
+        android:text="@string/txt_code_select"
+        android:textColor="@color/app_txt_color_white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/txt_code_selected"
+        android:background="@color/app_theme_color" />
+
+    <ListView
+        android:id="@+id/lst_charset_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_code_selected"
+        android:layout_marginTop="3dp"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/lst_charset_list"
+        android:background="@color/div_gray" />
+
+    <LinearLayout
+        android:id="@+id/layout_sure_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lst_charset_list" >
+
+        <TextView
+            android:id="@+id/txt_set_charset_ok"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_item_click_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="selectClick"
+            android:padding="5dp"
+            android:text="@string/txt_select_ok"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="50dp"
+            android:background="@color/div_gray" />
+
+        <TextView
+            android:id="@+id/txt_set_charset_cancel"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_item_click_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="selectClick"
+            android:padding="5dp"
+            android:text="@string/txt_select_cancel"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

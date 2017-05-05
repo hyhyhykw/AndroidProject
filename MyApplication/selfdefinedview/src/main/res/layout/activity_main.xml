@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="myClick"
+            android:text="@string/btn_taiji"/>
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="myClick2"
+            android:text="@string/circlering"/>
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_fivestar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="myClick4"
+            android:text="@string/btn_moveball"/>
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="myClick5"
+            android:text="@string/btn_ringball"/>
+
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="myClick6"
+            android:text="@string/list_view"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn7"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="myClick7"
+        android:text="@string/btn_moveball"/>
+
+    <Button
+        android:id="@+id/btn8"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="myClick8"
+        android:text="@string/circlering"/>
+
+    <Button
+        android:id="@+id/btn9"
+        style="@style/AppTheme"
+        android:text="时钟"
+        android:onClick="myClick9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn10"
+        style="@style/AppTheme"
+        android:text="触摸移动"
+        android:onClick="myClick10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

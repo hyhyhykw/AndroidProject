@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.hy.view">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".TaiJiActivity"/>
+        <activity android:name=".SettingActivity"/>
+        <activity android:name=".FiveStarActivity"/>
+        <activity android:name=".CircleRingActivity"/>
+        <activity android:name=".MoveBallActivity"/>
+        <activity android:name=".RingBallActivity"/>
+        <activity android:name=".TestListActivity"/>
+        <activity android:name=".BallActivity"/>
+        <activity android:name=".CacheActivity"/>
+        <activity android:name=".TimeActivity">
+        </activity>
+        <activity android:name=".TouchMoveActivity">
+        </activity>
+    </application>
+
+</manifest>

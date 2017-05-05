@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- source when you checked -->
+    <item android:drawable="@drawable/check_rect_correct_checked" android:state_checked="true"/>
+
+    <!-- default source -->
+    <item android:drawable="@drawable/check_rect_correct_default" android:state_checked="false"/>
+
+</selector>

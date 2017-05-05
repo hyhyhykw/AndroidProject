@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddAndEditActivity">
+
+    <include
+        layout="@layout/layout_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_add_icon"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/img_add_icon"
+            android:src="@mipmap/default_contact_head_icon"
+            tools:ignore="RtlHardcoded"/>
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_add_icon"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/img_add_icon"
+            android:hint="@string/please_insert_name"
+            android:inputType="text"
+            tools:ignore="RtlHardcoded"/>
+    </RelativeLayout>
+
+    <LinearLayout style="@style/edit_page_lyt_style">
+
+        <TextView
+            style="@style/edit_page_txt_style"
+            android:text="@string/phone_number_1"/>
+
+        <EditText
+            android:id="@+id/edt_num"
+            style="@style/edit_page_edt_style"
+            android:hint="@string/phone_number"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/edit_page_lyt_style">
+
+        <TextView
+            style="@style/edit_page_txt_style"
+            android:text="@string/e_mail"/>
+
+        <EditText
+            android:id="@+id/edt_email"
+            style="@style/edit_page_edt_style"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/edit_page_lyt_style">
+
+        <TextView
+            style="@style/edit_page_txt_style"
+            android:text="@string/address"/>
+
+        <EditText
+            android:id="@+id/edt_address"
+            style="@style/edit_page_edt_style"
+            android:hint="@string/user_address"
+            android:inputType="text"/>
+    </LinearLayout>
+
+</LinearLayout>

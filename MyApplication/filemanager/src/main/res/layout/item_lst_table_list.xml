@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+    android:layout_height="15dp"
+    android:background="@drawable/bottom_item_click_selector"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_table_name"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/app_txt_color_white"
+        tools:ignore="RtlSymmetry"/>
+
+</LinearLayout>

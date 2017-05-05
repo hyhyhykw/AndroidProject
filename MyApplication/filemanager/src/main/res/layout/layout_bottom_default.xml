@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/img_return"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bottom_item_click_selector"
+        android:contentDescription="@string/bottom_img_return_description"
+        android:onClick="bottomClick"
+        android:src="@mipmap/ic_return_sup" />
+
+    <ImageButton
+        android:id="@+id/img_add_file"
+        android:layout_width="@dimen/title_img_width"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bottom_item_click_selector"
+        android:contentDescription="@string/bottom_img_add_description"
+        android:onClick="bottomClick"
+        android:src="@mipmap/ic_menu_add" />
+
+    <ImageButton
+        android:id="@+id/img_search_file"
+        android:layout_width="@dimen/title_img_width"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bottom_item_click_selector"
+        android:contentDescription="@string/bottom_img_search_description"
+        android:onClick="bottomClick"
+        android:src="@mipmap/ic_menu_search" />
+
+    <ImageButton
+        android:id="@+id/img_sort_file"
+        android:layout_width="@dimen/title_img_width"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bottom_item_click_selector"
+        android:contentDescription="@string/bottom_img_sort_description"
+        android:onClick="bottomClick"
+        android:src="@mipmap/ic_menu_sort" />
+
+    <ImageButton
+        android:id="@+id/img_option"
+        android:layout_width="@dimen/title_img_width"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bottom_item_click_selector"
+        android:contentDescription="@string/bottom_img_option_description"
+        android:onClick="bottomClick"
+        android:src="@mipmap/ic_menu_preferences" />
+
+</LinearLayout>

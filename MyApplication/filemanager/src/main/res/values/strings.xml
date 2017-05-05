@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">文件管理</string>
+    <string name="action_settings">设置</string>
+    <string name="action_option">选项</string>
+    <string name="action_exit">退出</string>
+    <string name="adout">关于</string>
+    <string name="txt_root_path">根目录</string>
+    <string name="txt_inner">存储</string>
+    <string name="txt_outer">SD卡</string>
+    <string name="return_main">返回主文件 夹</string>
+    <string name="action_refresh">刷新</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_img_description">icon</string>
+    <string name="bottom_img_add_description">add file</string>
+    <string name="bottom_img_return_description">return</string>
+    <string name="bottom_img_del_description">delete file</string>
+    <string name="bottom_img_search_description">search</string>
+    <string name="bottom_img_sort_description">sort</string>
+    <string name="bottom_img_option_description">option</string>
+    <string name="text_edit_img_description">change charset code</string>
+    <string name="image_view_img_description">file image</string>
+    <string name="img_item_icon_description">item icon</string>
+    <string name="current_default_path">storage</string>
+    <string name="parent_default_path">/</string>
+    <string name="used_mem_default">7.95G</string>
+    <string name="empty_folder">文件夹为空</string>
+    <string name="used_text">已用，</string>
+    <string name="not_used_mem_default">2.31G</string>
+    <string name="txt_file_name_default">sdcard</string>
+    <string name="txt_file_size_default">0.00B</string>
+    <string name="txt_file_time_default">16&#8211;1&#8211;1 00:00:00</string>
+    <string name="can_used_text">可用</string>
+    <string name="txt_code_select">请选择编码方式</string>
+    <string name="txt_code_charset">UTF&#8211;8</string>
+    <string name="txt_sort_mode">名称</string>
+    <string name="txt_code_default">(默认)</string>
+    <string name="txt_select_ok">确定</string>
+    <string name="txt_select_cancel">取消</string>
+    <string name="txt_set_def_code">设置文档默认编码</string>
+    <string name="txt_def_code">(当前默认:UTF&#8211;8)</string>
+    <string name="txt_folder_up">将文件夹置顶</string>
+    <string name="txt_folder_up_detail_1">总是将文件夹置于列表顶端</string>
+    <string name="txt_folder_up_detail_2">文件夹和文件按所选排序混合排列</string>
+    <string name="txt_show_hidden">显示隐藏文件</string>
+    <string name="txt_folder_show_hidden_1">显示以.开头的隐藏文件和文件夹</string>
+    <string name="txt_folder_show_hidden_2">显示文件和文件夹(以.开头)将不被显示</string>
+    <string name="choice_sort_mode">选择排序模式</string>
+    <string name="txt_create_new_file">新建....</string>
+    <string name="txt_file">文件</string>
+    <string name="txt_folder">文件夹</string>
+    <string name="txt_new_file_name">名称:</string>
+    <string name="empty_file_name">文件名称不能为空</string>
+    <string name="operate_success">操作成功</string>
+    <string name="operate_failed">操作失败</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_failed">删除失败</string>
+
+    <!-- string array -->
+    <string-array name="texts_of_operate">
+        <item>移动</item>
+        <item>复制</item>
+        <item>删除</item>
+        <item>重命名</item>
+        <item>属性</item>
+    </string-array>
+    <string-array name="text_of_charset">
+        <item>UTF&#8211;8</item>
+        <item>GBK</item>
+        <item>GB2312</item>
+        <item>UTF&#8211;16</item>
+        <item>US&#8211;ASCII</item>
+        <item>ISO&#8211;8859&#8211;1</item>
+    </string-array>
+    <string-array name="text_sort_mode">
+        <item>名称</item>
+        <item>日期</item>
+        <item>大小</item>
+        <item>类型</item>
+        <item>名称(降序)</item>
+        <item>日期(降序)</item>
+        <item>大小(降序)</item>
+    </string-array>
+
+    <string name="title_activity_create">CreateActivity</string>
+    <string name="title_activity_input_name">InputNameActivity</string>
+    <string name="title_activity_text_edit">TextEditActivity</string>
+    <string name="title_activity_img_view">ImgViewActivity</string>
+    <string name="title_activity_database">DatabaseActivity</string>
+    <string name="title_activity_dbdetail">DBDetailActivity</string>
+
+</resources>

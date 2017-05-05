@@ -1,0 +1,1 @@
+include ':app', ':adaptation', ':recyclerview', ':floatbutton', ':imageshow'

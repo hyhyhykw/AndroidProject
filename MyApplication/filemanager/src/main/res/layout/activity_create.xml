@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity" >
+
+    <TextView
+        android:id="@+id/txt_create_title"
+        style="@style/dialog_title_style"
+        android:text="@string/txt_create_new_file"
+        android:textColor="@color/app_theme_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/txt_create_title"
+        android:background="@color/app_theme_color" />
+
+    <RelativeLayout
+        android:id="@+id/layout_create_folder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_create_title"
+        android:background="@drawable/bottom_item_click_selector"
+        android:clickable="true"
+        android:onClick="createClick" >
+
+        <ImageView
+            android:id="@+id/img_folder_icon"
+            style="@style/dialog_item_icon_style"
+            android:contentDescription="@string/img_item_icon_description"
+            android:src="@mipmap/folder_blue" />
+
+        <TextView
+            style="@style/dialog_item_style"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/img_folder_icon"
+            android:text="@string/txt_folder"
+            android:textColor="@color/app_txt_color_white" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/layout_create_folder"
+        android:background="@color/div_gray" />
+
+    <RelativeLayout
+        android:id="@+id/layout_create_file"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/layout_create_folder"
+        android:background="@drawable/bottom_item_click_selector"
+        android:clickable="true"
+        android:onClick="createClick" >
+
+        <ImageView
+            android:id="@+id/img_file_icon"
+            style="@style/dialog_item_icon_style"
+            android:contentDescription="@string/img_item_icon_description"
+            android:src="@drawable/icon_file_unknown" />
+
+        <TextView
+            style="@style/dialog_item_style"
+            android:layout_toRightOf="@+id/img_file_icon"
+            android:text="@string/txt_file"
+            android:textColor="@color/app_txt_color_white" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/layout_create_file"
+        android:background="@color/div_gray" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_occupy"
+        android:layout_below="@+id/layout_create_file" />
+
+</RelativeLayout>

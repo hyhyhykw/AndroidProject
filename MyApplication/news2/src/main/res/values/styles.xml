@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="lead_point_style">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_width">@dimen/lead_point_width</item>
+        <item name="android:layout_height">@dimen/lead_point_height</item>
+    </style>
+
+    <style name="news_sort_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">@dimen/radio_text_size</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/news_sort_selector</item>
+    </style>
+
+    <style name="login_btn_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/login_btn_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/btn_bg_image_selector</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/radio_text_size</item>
+    </style>
+
+    <style name="widget_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/input_bg_selector</item>
+        <item name="android:layout_marginLeft">@dimen/login_widget_margin</item>
+        <item name="android:layout_marginRight">@dimen/login_widget_margin</item>
+        <item name="android:layout_marginTop">@dimen/login_widget_margin</item>
+    </style>
+
+    <style name="anim_menu_bottombar">
+        <item name="android:windowEnterAnimation">@anim/menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_bottombar_out</item>
+    </style>
+
+    <style name="down_bottom_txt_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/item_click_color_selector</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

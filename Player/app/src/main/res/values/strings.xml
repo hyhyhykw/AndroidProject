@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Player</string>
+    <string name="music_name">音乐</string>
+    <string name="time_played">00:00/</string>
+    <string name="time_all">03:00</string>
+    <string name="last_music">last music</string>
+    <string name="pause">pause</string>
+    <string name="play">play</string>
+    <string name="next_music">next music</string>
+    <string name="stop">stop</string>
+    <string name="player">播放器</string>
+</resources>

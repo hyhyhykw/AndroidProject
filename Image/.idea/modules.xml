@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Image.iml" filepath="$PROJECT_DIR$/Image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adaptation/adaptation.iml" filepath="$PROJECT_DIR$/adaptation/adaptation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatbutton/floatbutton.iml" filepath="$PROJECT_DIR$/floatbutton/floatbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageshow/imageshow.iml" filepath="$PROJECT_DIR$/imageshow/imageshow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" />
+    </modules>
+  </component>
+</project>

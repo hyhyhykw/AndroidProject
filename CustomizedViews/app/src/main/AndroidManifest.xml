@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shenjiajun.customizeviewdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WaveActivity"
+            android:label="@string/title_activity_wave"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScratchActivity"
+            android:label="@string/title_activity_scratch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CircleImageActivity"
+            android:label="@string/title_activity_circle_image"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DragActivity"
+            android:label="@string/title_activity_drag"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyListActivity"
+            android:label="@string/title_activity_my_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DragDownActivity"
+            android:label="@string/title_activity_drag_down"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GradientTextActivity"
+            android:label="@string/title_activity_gradient_text"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NestedBehaviorActivity"
+            android:label="@string/title_activity_nested_behavior"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MarqueeActivity"
+            android:label="@string/title_activity_marquee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LuckWheelActivity"
+            android:label="@string/title_activity_luck_wheel"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

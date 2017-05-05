@@ -1,0 +1,42 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Black.NoTitleBar"/>
+
+    <style name="AppTheme" parent="AppBaseTheme"/>
+
+    <style name="DialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar" />
+
+    <style name="setting_page_txt_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/app_txt_color_white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="dialog_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="dialog_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="dialog_item_icon_style">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+</resources>

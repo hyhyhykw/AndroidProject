@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zx.player.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/player"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/music_name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/tv_all_time"
+        android:text="@string/time_played"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlHardcoded"/>
+
+    <TextView
+        android:id="@+id/tv_all_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/time_all"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlHardcoded"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:layout_marginTop="50dp"
+        android:focusable="true"
+        android:maxHeight="4dp"
+        android:minHeight="4dp"
+        android:progressDrawable="@drawable/seekbar_style"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/seekbar"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_last"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/last_image_selector"
+            android:clickable="true"
+            android:contentDescription="@string/last_music"/>
+
+        <ImageView
+            android:id="@+id/iv_pause"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/iv_last"
+            android:background="@drawable/pause_image_selector"
+            android:clickable="true"
+            android:contentDescription="@string/pause"
+            android:visibility="gone"
+            tools:ignore="RtlHardcoded"/>
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/iv_last"
+            android:background="@drawable/play_image_selector"
+            android:clickable="true"
+            android:contentDescription="@string/play"
+            tools:ignore="RtlHardcoded"/>
+
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_toRightOf="@+id/iv_last"
+            android:background="@drawable/next_image_selector"
+            android:clickable="true"
+            android:contentDescription="@string/next_music"
+            tools:ignore="RtlHardcoded"/>
+
+        <ImageView
+            android:id="@+id/iv_stop"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/iv_next"
+            android:background="@drawable/stop_image_selector"
+            android:clickable="true"
+            android:contentDescription="@string/stop"
+            tools:ignore="RtlHardcoded"/>
+    </RelativeLayout>
+
+</RelativeLayout>

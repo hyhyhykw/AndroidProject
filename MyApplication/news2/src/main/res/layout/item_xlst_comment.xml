@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/news_item_bg_selector"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/img_user_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@mipmap/userbg"
+        android:contentDescription="@string/user_head"
+        android:src="@mipmap/biz_pc_main_info_profile_avatar_bg_dark" />
+
+    <TextView
+        android:id="@+id/txt_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/img_user_icon"
+        android:text="@string/user"
+        android:textColor="@color/comment_uid_color"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_comment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txt_user_id"
+        android:text="@string/login_time_default"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img_user_icon"
+        android:layout_below="@+id/img_user_icon"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/app_name"
+        android:textColor="@color/black" />
+</RelativeLayout>

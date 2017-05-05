@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_84"
+        android:src="@drawable/setting_header"/>
+
+    <ListView
+        android:id="@+id/lst_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_160"/>
+
+    <Button
+        android:id="@+id/btn_logoff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_below="@+id/login_container"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_50"
+        android:background="@drawable/btn_bg_selector"
+        android:text="@string/text_logoff"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_25"
+        android:textStyle="bold"/>
+</LinearLayout>

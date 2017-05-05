@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidmap/androidmap.iml" filepath="$PROJECT_DIR$/androidmap/androidmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app2/app2.iml" filepath="$PROJECT_DIR$/app2/app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baidu/baidu.iml" filepath="$PROJECT_DIR$/baidu/baidu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contact/contact.iml" filepath="$PROJECT_DIR$/contact/contact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filemanager/filemanager.iml" filepath="$PROJECT_DIR$/filemanager/filemanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liferpg/liferpg.iml" filepath="$PROJECT_DIR$/liferpg/liferpg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news2/news2.iml" filepath="$PROJECT_DIR$/news2/news2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpggame/rpggame.iml" filepath="$PROJECT_DIR$/rpggame/rpggame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/selfdefinedview/selfdefinedview.iml" filepath="$PROJECT_DIR$/selfdefinedview/selfdefinedview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipanim/skipanim.iml" filepath="$PROJECT_DIR$/skipanim/skipanim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather/weather.iml" filepath="$PROJECT_DIR$/weather/weather.iml" />
+    </modules>
+  </component>
+</project>

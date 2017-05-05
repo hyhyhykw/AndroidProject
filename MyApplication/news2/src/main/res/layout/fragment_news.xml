@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/news_item_bg_normal"
+        android:gravity="center_vertical">
+
+        <RadioGroup
+            android:id="@+id/rgp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtn1"
+                style="@style/news_sort_style"
+                android:checked="true"
+                android:text="@string/text_military" />
+
+            <RadioButton
+                android:id="@+id/rbtn2"
+                style="@style/news_sort_style"
+                android:text="@string/text_society" />
+
+            <RadioButton
+                android:id="@+id/rbtn3"
+                style="@style/news_sort_style"
+                android:text="@string/text_economy" />
+
+            <RadioButton
+                android:id="@+id/rbtn4"
+                style="@style/news_sort_style"
+                android:text="@string/text_finance" />
+
+            <RadioButton
+                android:id="@+id/rbtn5"
+                style="@style/news_sort_style"
+                android:text="@string/text_science" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img_more"
+            android:layout_width="@dimen/image_more_width"
+            android:layout_height="@dimen/image_more_height"
+            android:clickable="true"
+            android:contentDescription="@string/picture_more"
+            android:src="@drawable/image_more_selector" />
+    </LinearLayout>
+
+    <com.zx.news2.view.XListView
+        android:id="@+id/xlst_news_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@color/transparent" />
+</LinearLayout>

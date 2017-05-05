@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ib_add"
+        style="@style/float_button_style"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/add"
+        android:src="@drawable/ic_add_normal"
+        tools:ignore="RtlHardcoded"/>
+
+    <ImageButton
+        android:id="@+id/ib_bluetooth"
+        style="@style/float_button_style"
+        android:layout_above="@+id/ib_add"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="100dp"
+        android:contentDescription="@string/add"
+        android:src="@drawable/ic_bluetooth_normal"
+        tools:ignore="RtlHardcoded"/>
+
+    <ImageButton
+        android:id="@+id/ib_enhanced"
+        style="@style/float_button_style"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ib_add"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/add"
+        android:src="@drawable/ic_enhanced_normal"
+        tools:ignore="RtlHardcoded"
+        android:adjustViewBounds="false"/>
+
+    <ImageButton
+        android:id="@+id/ib_highlight"
+        style="@style/float_button_style"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="100dp"
+        android:layout_toLeftOf="@+id/ib_add"
+        android:contentDescription="@string/add"
+        android:src="@drawable/ic_highlight_normal"
+        tools:ignore="RtlHardcoded"/>
+
+
+</RelativeLayout>

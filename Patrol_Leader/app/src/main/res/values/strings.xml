@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">巡查系统(领导)</string>
+    <string name="patrol">巡查系统</string>
+    <string name="text_login">登录</string>
+    <string name="text_register">注册</string>
+    <string name="cursor">cursor</string>
+    <string name="logo">Logo</string>
+    <string name="account_name">手机号/用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="verification_code">输入验证码</string>
+    <string name="input_phone_number">请输入手机号</string>
+
+    <!-- 首页  -->
+    <string name="main_home">首页</string>
+    <string name="main_approval">审批</string>
+    <string name="main_message">消息</string>
+    <string name="main_setting">设置</string>
+    <string name="audit_scheme">待审核的计划</string>
+    <string name="text_logoff">退出登录</string>
+    <string-array name="item_main_title">
+        <item>正在执行的任务</item>
+        <item>待派发的任务</item>
+        <item>待审批的任务</item>
+    </string-array>
+    <string-array name="item_setting_title">
+        <item>缓存管理</item>
+        <item>检查更新</item>
+        <item>密码修改</item>
+    </string-array>
+</resources>

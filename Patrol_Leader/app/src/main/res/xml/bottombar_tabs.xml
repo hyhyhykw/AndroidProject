@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_tab_home"
+        id="@+id/tab_home"
+        title="@string/main_home"/>
+    <tab
+        icon="@drawable/ic_tab_approval"
+        id="@+id/tab_approval"
+        title="@string/main_approval"/>
+    <tab
+        icon="@drawable/ic_tab_message"
+        id="@+id/tab_message"
+        title="@string/main_message"/>
+    <tab
+        icon="@drawable/ic_tab_setting"
+        id="@+id/tab_setting"
+        title="@string/main_setting"/>
+</tabs>

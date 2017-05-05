@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Contact</string>
+    <string name="input_search_content">请输入搜索内容</string>
+    <string name="text_contact">通讯录</string>
+    <string name="text_add">新建联系人</string>
+    <string name="icon">icon</string>
+    <string name="img_add_icon">img add icon</string>
+    <string name="please_insert_name">姓名</string>
+    <string name="phone_number">号码</string>
+    <string name="phone_number_1">电话号码:</string>
+    <string name="e_mail">电子邮箱:</string>
+    <string name="email">Email</string>
+    <string name="address">联系地址:</string>
+    <string name="user_address">联系人地址</string>
+    <string name="name">Name</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_save">保存</string>
+    <string name="text_qr">二维码名片:</string>
+    <string name="edit_users">编辑联系人</string>
+    <string name="delete_user">删除联系人</string>
+    <string name="send_to_desktop">发送到桌面</string>
+    <string name="text_back">返回</string>
+    <string name="dialod_title_delete">删除</string>
+    <string name="sure_delete">确定要删除联系人?</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_from_gallery">从图库中选取</string>
+    <string name="not_select_pic">未选择图片</string>
+    <string name="now_loading">now loading</string>
+    <string name="scan_qrcode">扫描二维码</string>
+    <string name="add_by_hand">手动添加</string>
+
+</resources>

@@ -1,0 +1,1 @@
+include ':mvc', ':mvp', ':news2', ':rpggame', ':skipanim', ':liferpg', ':contact', ':selfdefinedview', ':filemanager', ':androidmap', ':app', ':baidu', ':weather', 'app2'

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\Android\Android Studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidmap" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app2" />
+            <option value="$PROJECT_DIR$/baidu" />
+            <option value="$PROJECT_DIR$/contact" />
+            <option value="$PROJECT_DIR$/filemanager" />
+            <option value="$PROJECT_DIR$/liferpg" />
+            <option value="$PROJECT_DIR$/mvc" />
+            <option value="$PROJECT_DIR$/mvp" />
+            <option value="$PROJECT_DIR$/news2" />
+            <option value="$PROJECT_DIR$/rpggame" />
+            <option value="$PROJECT_DIR$/selfdefinedview" />
+            <option value="$PROJECT_DIR$/skipanim" />
+            <option value="$PROJECT_DIR$/weather" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
